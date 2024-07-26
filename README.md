@@ -17,15 +17,9 @@ https://www.brickowl.com/catalog/lego-slope-1-x-6-curved-41762-42022
 
 https://www.brickowl.com/catalog/lego-slope-1-x-6-curved-inverted-41763-42023
 
-https://www.brickowl.com/catalog/lego-slope-1-x-6-curved-inverted-41763-42023
-
-https://www.brickowl.com/catalog/lego-slope-1-x-4-x-1-3-curved-3573
-
 https://www.brickowl.com/catalog/lego-slope-1-x-2-45-28192
 
 https://www.brickowl.com/catalog/lego-slope-1-x-4-x-1-18-60477
-
-https://www.brickowl.com/catalog/lego-slope-1-x-2-x-3-75-inverted-2449
 
 https://www.brickowl.com/catalog/lego-slope-1-x-3-45-inverted-double-2341-18759
 
