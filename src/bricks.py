@@ -410,12 +410,12 @@ def lego_construct(polygon,object_name):
             z = s[0][0] * 20 + (brick.w + 1) * 10
             y = -s[0][1] * 24
             file_content += '0 Step\n' + '1 '
-            file_content += '14' + ' '
+            file_content += brick.color + ' '
             file_content += str(0) + ' ' + str(y) + ' ' + str(z)
             file_content += ' 0 0 1 0 1 0 -1 0 0 '
             file_content += brick.dat_code + '\n'
             N1 += 1
-
+    
     for s1 in G:
         for s2 in G:
             if s1 == s2:
@@ -596,13 +596,15 @@ def stability_simulation(N1,N2,min_height,lego_bar,lego_slope,lego_connect):
         for j in range(N1):
             points = shapes[j].get_vertices()
             points = [(int(bodies[j].position.x + point.x),int(bodies[j].position.y + point.y)) for point in points]
-            pg.draw.polygon(screen,(0,255,0),points)
+            pg.draw.polygon(screen,(135,206,250),points)
+            pg.draw.lines(screen,(0,0,0),True,points,2)
 
         for i in range(N2):
             (x,y) = (slope_bodies[i].position.x,slope_bodies[i].position.y)
             points = slope_shapes[i].get_vertices()
             points = [(int(point.x + x),int(point.y + y)) for point in points]
-            pg.draw.polygon(screen,(0,255,0),points)
+            pg.draw.polygon(screen,(135,206,250),points)
+            pg.draw.lines(screen,(0,0,0),True,points,2)
 
         pg.display.flip()
     pg.quit()
